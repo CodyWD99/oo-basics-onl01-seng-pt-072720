@@ -11,8 +11,8 @@ class Shoe
     puts "The shoe has been repaired."
   end
   
-  def change_con
-    @condition = "Nike"
+  def cobble
+    @condition = "new"
   end
 end
 
