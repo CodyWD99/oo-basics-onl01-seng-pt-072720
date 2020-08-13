@@ -7,14 +7,8 @@ class Shoe
     @brand = brand
   end
   
-  def phrase
-    puts "The shoe has been repaired."
-  end
-  
   def cobble
     @condition = "new"
-    puts ""
+    puts "The shoe has been repaired."
   end
 end
-
-shoe.cobble
