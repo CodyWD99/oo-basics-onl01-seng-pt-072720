@@ -15,3 +15,5 @@ class Shoe
     @condition = "Nike"
   end
 end
+
+shoe.cobble
